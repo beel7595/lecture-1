@@ -1,7 +1,7 @@
 const username = process.argv[2];
 
 function printName() {
-    console.log(username);
+    console.log("Welcome " + username + "!");
 }
 
 printName(); ``
